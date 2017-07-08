@@ -1,14 +1,37 @@
+* { 
+    font-family: 'Spoqa Han Sans', 'Spoqa Han Sans JP', 'Sans-serif'; 
+    font-weight: light
+}
 body{
 	background-color: #f6f6f6
 }
-.container{
-            background-color: powderblue;
-            height:200px;
-            display:flex;
-            flex-direction:row;
+ .container{
+            display: flex;
+            flex-direction: column;
         }
-        .item{
-            background-color: tomato;
-            color:white;
-            border:1px solid white;
+        header{
+            font-size: 1.5em;
+            font-weight: 100;
+            border-bottom:1px solid gray;
+            padding-left:20px;
+            
+        }
+        footer{
+            border-top:1px solid gray;
+            padding:20px;
+            text-align: center;
+            font-family: 'Spoqa Han Sans', 'Sans-serif';
+        }
+        .content{
+            
+            display:flex;
+        }
+        nav, aside{
+            flex-basis: 150px;
+            flex-shrink: 0;
+        }
+        main{
+            padding:10px;
+            font-size: 1.4em;
+            line-height: 1.7em
         }
