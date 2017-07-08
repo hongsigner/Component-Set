@@ -1,6 +1,11 @@
+@font-face {
+    font-family:'han';
+    src: url('SourceHanSerifK-ExtraLight-Alphabetic.woff') format("woff") url('SourceHanSerifK-ExtraLight-Alphabetic.eot') format("eot")
+    font-weight: ExtraLight;
+}
+
 * { 
-    font-family: 'Spoqa Han Sans', 'Spoqa Han Sans JP', 'Sans-serif'; 
-    font-weight: light
+    font-family: 'han', !important; 
 }
 body{
 	background-color: #f6f6f6
@@ -20,7 +25,6 @@ body{
             border-top:1px solid gray;
             padding:20px;
             text-align: center;
-            font-family: 'Spoqa Han Sans', 'Sans-serif';
         }
         .content{
             
