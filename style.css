@@ -1,12 +1,6 @@
-@font-face {
-    font-family:'han';
-    src: url('SourceHanSerifK-ExtraLight-Alphabetic.woff') format("woff") url('SourceHanSerifK-ExtraLight-Alphabetic.eot') format("eot")
-    font-weight: ExtraLight;
-}
+@import url(//fonts.googleapis.com/earlyaccess/nanummyeongjo.css);
+@import url(http://fonts.googleapis.com/earlyaccess/notosanskr.css);
 
-* { 
-    font-family: 'han', !important; 
-}
 body{
 	background-color: #f6f6f6
 }
@@ -15,13 +9,15 @@ body{
             flex-direction: column;
         }
         header{
-            font-size: 1.5em;
-            font-weight: 100;
+            font-family: 'Nanum Myeongjo', serif;
+            font-weight: 400;
             border-bottom:1px solid gray;
             padding-left:20px;
             
         }
         footer{
+            font-family: 'Nanum Myeongjo', serif;
+            font-weight: 100;
             border-top:1px solid gray;
             padding:20px;
             text-align: center;
@@ -35,6 +31,7 @@ body{
             flex-shrink: 0;
         }
         main{
+            font-family: ‘Noto Sans KR’, 'san-serif' ;
             padding:10px;
             font-size: 1.4em;
             line-height: 1.7em
