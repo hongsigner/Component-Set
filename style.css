@@ -1,7 +1,7 @@
 @import url(//fonts.googleapis.com/earlyaccess/nanummyeongjo.css);
 @import url(http://fonts.googleapis.com/earlyaccess/notosanskr.css);
 
-@media (max-width:600px){
+@media (min-width:600px){
 body{
 	background-color: #f6f6f6
 }
@@ -45,7 +45,7 @@ body{
             padding: 20px;
         }
 }
-@media (min-width:601px){
+@media (max-width:601px){
 body{
 	background-color: #f6f6f6
 }
