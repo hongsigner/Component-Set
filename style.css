@@ -1,3 +1,14 @@
 body{
-	background-color: aquamarine
+	background-color: #f6f6f6
 }
+.container{
+            background-color: powderblue;
+            height:200px;
+            display:flex;
+            flex-direction:row;
+        }
+        .item{
+            background-color: tomato;
+            color:white;
+            border:1px solid white;
+        }
