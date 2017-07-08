@@ -5,12 +5,14 @@ body{
 	background-color: #f6f6f6
 }
  .container{
+            font-family: 'Nanum Myeongjo', serif;
+            font-weight: 100;
             display: flex;
             flex-direction: column;
         }
         header{
             font-family: 'Nanum Myeongjo', serif;
-            font-weight: 400;
+            font-weight: 100;
             border-bottom:1px solid gray;
             padding-left:20px;
             
@@ -23,15 +25,19 @@ body{
             text-align: center;
         }
         .content{
-            
+            font-family: 'Nanum Myeongjo', serif;
+            font-weight: 100;
             display:flex;
         }
         nav, aside{
+            font-family: 'Nanum Myeongjo', serif;
+            font-weight: 100;
             flex-basis: 150px;
             flex-shrink: 0;
         }
         main{
-            font-family: ‘Noto Sans KR’, 'san-serif' ;
+            font-family: 'Nanum Myeongjo', serif;
+            font-weight: 100;
             padding:10px;
             font-size: 1.4em;
             line-height: 1.7em
