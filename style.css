@@ -4,6 +4,14 @@
 @import url(//spoqa.github.io/spoqa-han-sans/css/SpoqaHanSans-jp.css);
 
 * { font-family: 'Spoqa Han Sans', 'Spoqa Han Sans JP', 'Sans-serif'; }
+
+#columns img{
+    transition: all 0.6s;
+}
+
+#columns img:hover{
+    box-shadow: 6px 6px 40px  rgba(0,0,0,0.5);
+}
 @media (max-width:600px){
         body{
 	        background-color: #f6f6f6
