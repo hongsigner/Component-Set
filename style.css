@@ -42,16 +42,11 @@ footer{
             
 }
 
-
-#sanyuwha {
-        align-content: center;
-        display: block;
-}
-
 video {
-        position: static;
+        display: block;
         width: 960px;
-        height: 700px;
+        margin-left: auto;
+        margin-right: auto;
 }
 
 #columns {
@@ -62,7 +57,7 @@ video {
         position: static;
         width: 960px;
         height: auto;
-        margin-top: 1em;
+        margin-top: 50px;
         margin-left: auto;
         margin-right: auto;
         display: block;
