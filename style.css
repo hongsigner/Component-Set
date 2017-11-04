@@ -34,18 +34,18 @@ b ul li a{
     text-decoration:none
 }
 
+b ul li a:hover {
+    text-decoration: underline; color:#BDBDBD;
+    transition-duration: 0.5s;    
+}
+
 video {
         display: block;
-        
         margin-top: 44px;
         margin-left: auto;
         margin-right: auto;
         padding-bottom: 120px;
         border-bottom:1px solid #BDBDBD;
-}
-
-#columns {
-        align-content: center
 }
 
 #columns img{
