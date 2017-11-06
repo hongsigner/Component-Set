@@ -203,7 +203,7 @@
 <text transform="matrix(1 0 0 1 121.19 338.19)" class="st7 st8">간판, 영상, 디바이스, 게임, 애플리케이션, 웹폰트, </text>
 <text transform="matrix(1 0 0 1 121.19 364.19)" class="st7 st8">상업용 2차 제작물 등에 사용하실 수 있습니다. </text>
 <text transform="matrix(1 0 0 1 121.19 416.19)" class="st7 st8">*단, 서버 등을 통한 재판매는 제외합니다.</text>
-<text transform="matrix(1 0 0 1 121.19 442.19)" class="st7 st8">*글꼴은 마켓히읗(http://markethiut.com/)에서 </text>
+	<text transform="matrix(1 0 0 1 121.19 442.19)" class="st7 st8">*글꼴은 마켓히읗<a href="#" onclick="location.href=">http://markethiut.com/)</a>에서</text>
 <text transform="matrix(1 0 0 1 121.19 468.19)" class="st7 st8"> 구입하실 수 있습니다.</text>
 <text transform="matrix(1 0 0 1 561.7501 312.19)" class="st7 st8">상업적인 인쇄, 출판, 웹 이미지에 </text>
 <text transform="matrix(1 0 0 1 561.7501 338.19)" class="st7 st8">사용하실 수 있습니다.</text>
