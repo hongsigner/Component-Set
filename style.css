@@ -6,8 +6,7 @@
 
 @font-face{
 	font-family:'illegalfont','@illegalfont';
-	src:local(*),url('html/component-set.tk/illegalfont.ttf') format('truetype');
-	src:local(/),url('illeaglfont.ttf) format('truetype');
+	src:local(*),url('component-set.tk/illegalfont.ttf') format('truetype');
 }
 
 * { font-family: 'Spoqa Han Sans', 'Spoqa Han Sans JP', 'Sans-serif','@illegalfont','illegalfont'; } 
