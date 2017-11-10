@@ -6,7 +6,7 @@
 
 @font-face{
 	font-family:'@illegalfont'
-	src:url(illegalfont.ttf);
+	src:url(./illegalfont.ttf);
 	format('truetype');
 }
 
