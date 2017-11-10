@@ -1,12 +1,12 @@
-/* @import url(//fonts.googleapis.com/earlyaccess/nanummyeongjo.css);
+ @import url(//fonts.googleapis.com/earlyaccess/nanummyeongjo.css);
 @import url(http://fonts.googleapis.com/earlyaccess/notosanskr.css);
 @import url(//spoqa.github.io/spoqa-han-sans/css/SpoqaHanSans-kr.css);
-@import url(//spoqa.github.io/spoqa-han-sans/css/SpoqaHanSans-jp.css);  */
+@import url(//spoqa.github.io/spoqa-han-sans/css/SpoqaHanSans-jp.css);
 
 
 @font-face{
 	font-family:'illegalfont','@illegalfont';
-	src:url('component-set.tk/illegalfont.ttf') format('truetype');
+	src:url('http://component-set.tk/illegalfont.ttf') format('truetype');
 	src:url('illeagalfont.ttf') format('truetype');
 }
 
