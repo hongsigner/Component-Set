@@ -6,7 +6,8 @@
 
 @font-face{
 	font-family:'@illegalfont';
-	src:local(illegalfont.ttf);
+	src:local(Component-Set),
+	    url(illegalfont.ttf);
 	format('truetype');
 }
 
