@@ -9,7 +9,7 @@
 	src:url('component-set.tk/illegalfont.ttf') format('truetype');
 }
 
-header { font-family: 'Spoqa Han Sans', 'Spoqa Han Sans JP', 'Sans-serif','@illegalfont','illegalfont'; } 
+header { font-family: '@illegalfont','illegalfont', 'Spoqa Han Sans', 'Spoqa Han Sans JP', 'Sans-serif'; } 
 
 body{
 	        background-color: #FFFFFF;
