@@ -84,7 +84,7 @@ video {
         
 }
 #txt {
-   /*     position: static;  */
+        position: static;  
 		writing-mode: vertical-rl;
 		-moz-writing-mode: vertical-rl;
 		-ms-writing-mode: tb-rl;
@@ -106,7 +106,7 @@ video {
 	resize:none;
 
         
-
+	outline:none;
         font-family:illegalfont,@illegalfont;
 		display: block;
         border:none;
