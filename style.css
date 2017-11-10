@@ -2,8 +2,21 @@
 @import url(http://fonts.googleapis.com/earlyaccess/notosanskr.css);
 @import url(//spoqa.github.io/spoqa-han-sans/css/SpoqaHanSans-kr.css);
 @import url(//spoqa.github.io/spoqa-han-sans/css/SpoqaHanSans-jp.css);
+@import url(http://w3-css/w3.css);
+import url("fineprint.css") print;
+@import url("bluish.css") projection, tv;
+@import 'custom.css';
+@import url("chrome://communicator/skin/");
+@import "common.css" screen, projection;
+@import url('landscape.css') screen and (orientation:landscape);
 
-* { font-family: 'Spoqa Han Sans', 'Spoqa Han Sans JP', 'Sans-serif'; }
+@font-face{
+	font-family:'illegalfont'
+	src:url(./illegalfont.ttf);
+	format('ttf');
+}
+
+* { font-family: 'Spoqa Han Sans', 'Spoqa Han Sans JP', 'Sans-serif','@illegalfont','illegalfont'; } 
 
 body{
 	        background-color: #FFFFFF;
@@ -48,7 +61,7 @@ video {
 /*        border-bottom:1px solid #BDBDBD;*/
 }
 
-#columns > img, svg{
+#columns img{
         position: static;
         width: 960px;
         height: auto;
@@ -62,9 +75,256 @@ video {
 }
 
 
+#auto img{
+        position: static;
+        width: 960px;
+        height: auto;
+        margin-top: 120px;
+        padding-bottom: 120px;
+        margin-left: auto;
+        margin-right: auto;
+        display: block;
+/*       border-bottom:1px solid #BDBDBD;*/
+        
+}
+#txt {
+/*        position: static; */
+		writing-mode: vertical-rl;
+		-moz-writing-mode: vertical-rl;
+		-ms-writing-mode: tb-rl;
+		-ms-writing-mode: vertical-rl;
+		 writing-mode:tb-rl;
+		-webkit-transform:rotate(90deg);
+		-moz-transform:rotate(90deg);
+		-o-transform: rotate(90deg);
+		writing-mode: vertical-rl;
+        width: 700px;
+        height: 960px;
+        margin-top: -70px;
+        padding-bottom: -120px;
+        font-size:48px;
+    	line-height: 150%;
+        margin-left: auto;
+        margin-right: auto;
+        
+        /*글꼴 꼭 확인 부분 @ 하나 삭제만 하면됨.*/
+        font-family:@illegalfont;
+		outline: none;
+		display: block;
+        border:none;
+        border-left:1px solid #BDBDBD; 
+        padding-left:50px
+
+/*        border-bottom:1px solid #BDBDBD;*/
+        
+}
+
+
+#columns svg{
+        position: static;
+        width: 960px;
+        height: auto;
+        margin-top: 120px;
+        padding-top: 40px;
+        padding-bottom: 120px;
+        margin-left: auto;
+        margin-right: auto;
+        display: block;
+        font-size : 48pt;
+        border-top:1px solid #BDBDBD;
+}
+
+
+
 
 #columns svg a:hover{
-		text-decoration: underline;
-        fill:#BDBDBD;
+		text-decoration: underline; fill:#BDBDBD;
     	transition-duration: 0.5s;    
 }
+
+
+/*
+#columns svg{
+        position: static;
+        width: 960px;
+        height: auto;
+        margin-top: 120px;
+        padding-bottom: 120px;
+        margin-left: auto;
+        margin-right: auto;
+        display: block;
+        border-bottom:1px solid #BDBDBD;
+        
+}
+*/
+
+
+
+
+
+    
+
+
+/* 
+@media (max-width:600px){
+        body{
+	        background-color: #f6f6f6
+        }
+        h1{
+            font-size: 3em;
+            font-weight: 300
+        } 
+        h2{
+            font-size: 0.8em;
+            font-weight: 100
+        } 
+        .container{
+            font-weight: 300;
+            display: flex;
+            flex-direction: column;
+            
+        }
+        header{
+            display: flex;
+            border-bottom:1px solid gray;
+            
+            padding-left:20px;
+            
+        }
+        footer{
+            padding-left:20px;
+            font-size: 1.2em;
+            font-weight: 100;
+            border-top:1px solid gray;
+            padding:20px;
+            text-align: center;
+        }
+        .content{
+            flex-direction: column;
+        }
+        nav, aside{
+            font-size: 1.2em;
+            font-weight: 100;
+            flex-basis: 150px;
+            flex-shrink: 0;
+            line-height: 1.768em
+        }
+        main{
+            padding:10px;
+            font-size: 2.0em;
+            line-height: 1.768em
+        }
+        .link{
+            padding: 20px;
+        }
+        #columns{
+        column-width:350px;
+        column-gap: 20px;
+        padding: 40px;
+        }
+        #columns img{
+        display: inline-block;
+        margin-bottom: 2em;
+        width:100%;
+        box-shadow: 6px 6px 30px  rgba(0,0,0,0.3);
+        }
+}
+
+
+
+@media (min-width:601px){
+        body{
+	        background-color: #f6f6f6
+        }
+        h1{
+            font-size: 3em;
+            font-weight: 300
+        }
+        h2{
+            font-weight: 300;
+            font-size: 1.2em;
+            margin-bottom: -2em;
+        }
+        .container{
+            font-family: 'Nanum Myeongjo', serif;
+            font-weight: 300;
+            display: flex;
+            flex-direction: column;
+        }
+        header{
+             display: flex;
+            border-bottom:1px solid gray;
+            
+            padding-left:20px;
+        }
+        footer{
+            border-top:1px solid gray;
+            font-size: 1.2em;
+            font-weight: 100;
+            padding:20px;
+            text-align: center;
+        }
+        .content{
+            display:flex;
+        }
+        nav, aside{
+            flex-basis: 150px;
+            flex-shrink: 0;
+            line-height: 1.768em
+        }
+        main{
+            padding:10px;
+            font-size: 1.4em;
+            line-height: 1.768em
+        }
+        .link{
+            padding: 20px;
+        }
+        #columns{
+        
+        column-count: 4;
+        column-width:250px;
+        column-gap: 4em;
+        margin-top: -30px;
+        margin: 50px;
+        }
+        #columns img{
+        display: inline-block;
+        margin-top: 2.6em;
+        margin-bottom: 1em;
+        width:100%;
+        box-shadow: 6px 6px 30px  rgba(0,0,0,0.3);
+        }
+video {
+        position: relative;
+        width: 100%;
+        height: 100%;
+    
+    #columns img{
+    transition: all 0.6s;
+}
+
+#columns img:hover{
+    box-shadow: 6px 6px 40px  rgba(0,0,0,0.5);
+}
+<footer>
+            <a class="link" href="https://www.facebook.com/xofyd11?ref=ts&fref=ts">페이스북</a>
+            <a class="link" href="https://www.instagram.com/taeryong.kim/">인스타그램</a>
+        </footer>
+footer a{
+    margin: 4em;
+    font-size:1em;
+    font-weight:300;
+    color:black;
+    text-decoration:none;
+
+footer{
+            
+    border-top:1px solid gray;
+    padding:40px;
+    text-align: center;
+            
+}
+    
+}
+}*/
