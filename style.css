@@ -5,11 +5,11 @@
 
 
 @font-face{
-	font-family:'illegalfont','@illegalfont', 'Spoqa Han Sans', 'Spoqa Han Sans JP', 'Sans-serif';
+	font-family:'illegalfont','@illegalfont';
 	src:url('component-set.tk/illegalfont.ttf') format('truetype');
 }
 
-/* header { font-family: '@illegalfont','illegalfont' }  */
+ header { font-family: '@illegalfont','illegalfont', 'Spoqa Han Sans', 'Spoqa Han Sans JP', 'Sans-serif' }  
 
 body{
 	        background-color: #FFFFFF;
