@@ -2,17 +2,11 @@
 @import url(http://fonts.googleapis.com/earlyaccess/notosanskr.css);
 @import url(//spoqa.github.io/spoqa-han-sans/css/SpoqaHanSans-kr.css);
 @import url(//spoqa.github.io/spoqa-han-sans/css/SpoqaHanSans-jp.css);
-@import url(http://w3-css/w3.css);
-import url("fineprint.css") print;
-@import url("bluish.css") projection, tv;
-@import 'custom.css';
-@import url("chrome://communicator/skin/");
-@import "common.css" screen, projection;
-@import url('landscape.css') screen and (orientation:landscape);
+
 
 @font-face{
 	font-family:'illegalfont'
-	src:url(./illegalfont.ttf);
+	src:url(illegalfont.ttf);
 	format('ttf');
 }
 
@@ -88,9 +82,7 @@ video {
         
 }
 #txt {
-        position: static; 
-        width: 700px;
-        height: 960px;
+        position: static;
 		writing-mode: vertical-rl;
 		-moz-writing-mode: vertical-rl;
 		-ms-writing-mode: tb-rl;
@@ -100,6 +92,9 @@ video {
 		-moz-transform:rotate(90deg);
 		-o-transform: rotate(90deg);
 		writing-mode: vertical-rl;
+	 
+        width: 700px;
+        height: 960px;
         margin-top: -70px;
         padding-bottom: -120px;
         font-size:48px;
