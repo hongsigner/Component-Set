@@ -88,7 +88,9 @@ video {
         
 }
 #txt {
-/*        position: static; */
+        position: static; 
+        width: 700px;
+        height: 960px;
 		writing-mode: vertical-rl;
 		-moz-writing-mode: vertical-rl;
 		-ms-writing-mode: tb-rl;
@@ -98,8 +100,6 @@ video {
 		-moz-transform:rotate(90deg);
 		-o-transform: rotate(90deg);
 		writing-mode: vertical-rl;
-        width: 700px;
-        height: 960px;
         margin-top: -70px;
         padding-bottom: -120px;
         font-size:48px;
