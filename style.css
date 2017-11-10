@@ -5,8 +5,8 @@
 
 
 @font-face{
-	font-family:'@illegalfont'
-	src:local(./illegalfont.ttf);
+	font-family:'@illegalfont';
+	src:local(illegalfont.ttf);
 	format('truetype');
 }
 
