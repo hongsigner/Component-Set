@@ -102,10 +102,10 @@ video {
         margin-left: auto;
         margin-right: auto;
 	resize:none;
-	wrap:hard;
+
         
         /*글꼴 꼭 확인 부분 @ 하나 삭제만 하면됨.*/
-        font-family:illegalfont;
+        font-family:@illegalfont;
 		outline: none;
 		display: block;
         border:none;
