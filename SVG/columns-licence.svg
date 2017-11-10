@@ -1,52 +1,5 @@
-<!doctype html>
-<html>
-<head>
-<meta charset="utf-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-<link rel="stylesheet" href="style.css">
-</head>
-<body>
-      
-        <header>
-           <b>
-               <ul>
-               <li><a href="index.html">
-                   <img src="SVG/logo.svg" alt="COMPONENT SET" style="margin-left: 1em;" align=center width=260px >
-                   </a></li>
-                <li style="margin-top: 3px;"><a href="#">산유화</a></li>
-                <li style="margin-top: 3px;"><a href="#">글꼴보기</a></li>
-                <li style="margin-top: 3px;"><a href="#">스테디오</a></li>
-               </ul>
-           </b>
-            
-            
-        </header>
-        <section class="content">
-            <main>
-                <div id="sanyuwha" >
-                    <video width="960" autoplay loop muted >
-                    <source src="Sanyuwha-white.mp4" >
-                    </video>
-                </div>
-                <div id="columns">
-                   
-                    <img src="SVG/columns-1.svg">
-                  
-                    <img src="SVG/columns-gif.svg">
-                    
-                    <img src="SVG/columns-2.svg">
-                   
-                    <img src="SVG/columns-3.svg">
-                
-                    <img src="SVG/columns-4.svg">
-            
-                    <img src="SVG/columns-5.svg">
-            
-                    <img src="SVG/columns-6.svg">
-                    
-                    <img src="SVG/columns-7.svg">
-                    
-				
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 22.0.1, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
 <svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
 	 viewBox="0 0 943.3 518" style="enable-background:new 0 0 943.3 518;" xml:space="preserve">
 <style type="text/css">
@@ -250,25 +203,8 @@
 <text transform="matrix(1 0 0 1 121.19 338.19)" class="st7 st8">간판, 영상, 디바이스, 게임, 애플리케이션, 웹폰트, </text>
 <text transform="matrix(1 0 0 1 121.19 364.19)" class="st7 st8">상업용 2차 제작물 등에 사용하실 수 있습니다. </text>
 <text transform="matrix(1 0 0 1 121.19 416.19)" class="st7 st8">*단, 서버 등을 통한 재판매는 제외합니다.</text>
-	<text transform="matrix(1 0 0 1 121.19 442.19)" class="st7 st8">*글꼴은 마켓히읗<a href="http://markethiut.com/" target="_blank">(http://markethiut.com/)</a>에서</text>
+	<text transform="matrix(1 0 0 1 121.19 442.19)" class="st7 st8">*글꼴은 마켓히읗<a href="#" onclick="location.href=">http://markethiut.com/)</a>에서</text>
 <text transform="matrix(1 0 0 1 121.19 468.19)" class="st7 st8"> 구입하실 수 있습니다.</text>
 <text transform="matrix(1 0 0 1 561.7501 312.19)" class="st7 st8">상업적인 인쇄, 출판, 웹 이미지에 </text>
 <text transform="matrix(1 0 0 1 561.7501 338.19)" class="st7 st8">사용하실 수 있습니다.</text>
 </svg>
-
-
-           
-<!--                    <div id="columns-7" style="background-image: url('SVG/columns-7.svg')"></div>-->
-                    
-          
-                <div id="line"></div>
-                    <img style="margin-bottom: 4em;" src="SVG/columns-8.svg">
-                    
-                </div>
-                
-            </main>
-        </section>
-        
-        
-</body>
-</html>
