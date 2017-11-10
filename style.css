@@ -5,11 +5,7 @@
 
 
 @font-face{
-	font-family:'illegalfont';
-	src:url('html/component-set.tk/illegalfont.ttf') format('truetype');
-}
-@font-face{
-	font-family:'@illegalfont';
+	font-family:'illegalfont','@illegalfont';
 	src:url('html/component-set.tk/illegalfont.ttf') format('truetype');
 }
 
