@@ -7,8 +7,9 @@
 @font-face{
 	font-family:'illegalfont','@illegalfont';
   font-weight: 700;
-	src:url('http://component-set.tk/illegalfont.ttf') format('truetype'),
+	src:local('illegalfont','@illeagalfont'),
 	url('http://component-set.tk/illegalfont.woff') format('woff'),
 	url('http://component-set.tk/illegalfont.woff2') format('woff2'),	
 	url('./illeagalfont.ttf') format('truetype');
+	
 }
