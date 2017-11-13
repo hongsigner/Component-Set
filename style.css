@@ -2,15 +2,9 @@
 @import url(http://fonts.googleapis.com/earlyaccess/notosanskr.css);
 @import url(//spoqa.github.io/spoqa-han-sans/css/SpoqaHanSans-kr.css);
 @import url(//spoqa.github.io/spoqa-han-sans/css/SpoqaHanSans-jp.css);
+@import url(http://component-set.tk/font.css);
 
 
-@font-face{
-	font-family:'illegalfont','@illegalfont';
-	src:url('http://component-set.tk/illegalfont.ttf') format('truetype'),
-	url(‘http://component-set.tk/illegalfont.woff’) format(‘woff’),
-	url(‘http://component-set.tk/illegalfont.woff2’) format(‘woff2’),	
-	url('illeagalfont.ttf') format('truetype');
-}
 
   * { font-family: '@illegalfont','illegalfont', 'Spoqa Han Sans', 'Spoqa Han Sans JP', 'Sans-serif' }   
 
